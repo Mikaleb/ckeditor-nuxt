@@ -13,7 +13,7 @@
   />
 </template>
 <script>
-import FullFreeBuildEditor from '@blowstack/ckeditor5-full-free-build'
+import FullFreeBuildEditor from '@mikaleb/ckeditor5-build-classic'
 import CKEditor from '@ckeditor/ckeditor5-vue2'
 
 export default {

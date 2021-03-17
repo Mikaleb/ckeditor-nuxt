@@ -23,8 +23,9 @@
     "release": "dotenv release-it"
   },
   "dependencies": {
-    "@blowstack/ckeditor5-full-free-build": "^24.0.1",
-    "@ckeditor/ckeditor5-vue2": "^1.0.5"
+    "@ckeditor/ckeditor5-vue2": "^1.0.5",
+    "@mikaleb/ckeditor5-build-classic": "^26.0.0",
+    "ckeditor5": "^26.0.0"
   },
   "devDependencies": {
     "@vue/cli-service": "~4.3.0",
