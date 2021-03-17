@@ -1,6 +1,6 @@
 {
   "name": "@mikaleb/ckeditor-nuxt",
-  "version": "0.6.0",
+  "version": "0.5.0",
   "private": false,
   "author": "Mikaleb <mikaleb@live.fr>",
   "keywords": [
@@ -19,7 +19,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-bundle": "vue-cli-service build --target lib --name ckeditorNuxt ./src/components/index.js"
+    "build-bundle": "vue-cli-service build --target lib --name ckeditorNuxt ./src/components/index.js",
+    "release": "release-it"
   },
   "dependencies": {
     "@blowstack/ckeditor5-full-free-build": "^24.0.1",
@@ -33,6 +34,7 @@
     "core-js": "^3.8.3",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "release-it": "^14.4.1",
     "vue": "^2.6.12",
     "vue-template-compiler": "^2.6.12"
   },
