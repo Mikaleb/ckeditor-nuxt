@@ -1,11 +1,8 @@
 {
-  "name": "@blowstack/ckeditor-nuxt",
-  "version": "0.5.0",
+  "name": "@mikaleb/ckeditor-nuxt",
+  "version": "0.5.1",
   "private": false,
-  "author": {
-    "name": "BlowStack",
-    "email": "piotr.golon@gmail.com"
-  },
+  "author": "Mikaleb <mikaleb@live.fr>",
   "keywords": [
     "ckeditor5 nuxt",
     "ckeditor 5 nuxt",
@@ -39,20 +36,6 @@
     "vue": "^2.6.12",
     "vue-template-compiler": "^2.6.12"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
-  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
@@ -64,5 +47,17 @@
     "public/*",
     "*.json",
     "*.js"
-  ]
+  ],
+  "description": "CKEditor 5 editor for nuxt apps. The component includes all free available plugins (except CKFinder, instead simple upload adapter used)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikaleb/ckeditor-nuxt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mikaleb/ckeditor-nuxt/issues"
+  },
+  "homepage": "https://github.com/Mikaleb/ckeditor-nuxt#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }

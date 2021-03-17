@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <CkeditorNuxt v-model="content"/>
-
+    <CkeditorNuxt v-model="content" />
   </div>
 </template>
 
@@ -11,13 +10,13 @@ import CkeditorNuxt from './components/CkeditorNuxt.vue'
 export default {
   name: 'App',
   components: {
-    CkeditorNuxt
+    CkeditorNuxt,
   },
   data() {
     return {
-      content: ''
+      content: '',
     }
-  }
+  },
 }
 </script>
 
